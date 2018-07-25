@@ -34,13 +34,13 @@ object ScalatestBuild extends Build {
 
   // To temporarily switch sbt to a different Scala version:
   // > ++ 2.10.5
-  val buildScalaVersion = "2.12.4"
+  val buildScalaVersion = "2.12.6"
 
-  val releaseVersion = "3.1.0-SNAP7"
+  val releaseVersion = "3.1.0-KH"
   val previousReleaseVersion = "3.0.5"
 
-  val scalacheckVersion = "1.13.5"
-  val nativeScalacheckVersion = "1.14.0-18db189-SNAPSHOT"
+  val scalacheckVersion = "1.14.1-SNAPSHOT-KH"
+  val nativeScalacheckVersion = "1.14.1-SNAPSHOT-KH"
 
   val easyMockVersion = "3.2"
   val jmockVersion = "2.8.3"

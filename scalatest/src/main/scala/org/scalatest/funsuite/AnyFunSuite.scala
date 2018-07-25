@@ -1558,7 +1558,6 @@ import org.scalatest.{Suite, Finders}
   * @author Bill Venners
   */
 @Finders(Array("org.scalatest.finders.FunSuiteFinder"))
-//SCALATESTJS-ONLY @scala.scalajs.js.annotation.JSExportDescendentClasses(ignoreInvalidDescendants = true)
 abstract class AnyFunSuite extends AnyFunSuiteLike {
 
   /**
