@@ -86,6 +86,7 @@ object ScalatestBuild extends Build {
     }
 
   def getJavaHome(scalaMajorVersion: String): Option[File] = {
+    /*
     scalaMajorVersion match {
       case "2.10" | "2.11" =>  // force to use Java 6
         if (!System.getProperty("java.version").startsWith("1.6") && System.getProperty("scalatest.skip.jdk.check") != "true")
@@ -93,6 +94,7 @@ object ScalatestBuild extends Build {
 
       case _ =>
     }
+    */
 
     val javaHome = new File(System.getProperty("java.home"))
     val javaHomeBin = new File(javaHome, "bin")
